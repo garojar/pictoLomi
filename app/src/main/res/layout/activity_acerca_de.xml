@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondocfg2"
+    tools:context="com.example.germnrojo.pictoproject.acercaDe">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="515dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quienes somos !"
+            android:textColor="@android:color/background_dark"
+            android:textSize="100sp"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+        <LinearLayout
+            android:layout_width="973dp"
+            android:layout_height="304dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="184dp"
+                android:layout_height="178dp"
+                android:layout_marginEnd="49dp"
+                android:layout_marginRight="49dp"
+                android:layout_marginTop="60dp"
+                android:layout_weight="1"
+                app:layout_constraintRight_toLeftOf="@+id/imageView2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logoucn"
+                tools:layout_constraintRight_creator="1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="126dp"
+                android:layout_height="160dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="87dp"
+                android:layout_weight="1"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logooid"
+                tools:layout_constraintTop_creator="1" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="121dp"
+                android:layout_height="225dp"
+                android:layout_marginEnd="44dp"
+                android:layout_marginLeft="44dp"
+                android:layout_marginRight="44dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="43dp"
+                android:layout_weight="1"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="@+id/back"
+                app:layout_constraintRight_toRightOf="@+id/back"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                app:srcCompat="@drawable/logoima"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintRight_creator="1"
+                tools:layout_constraintTop_creator="1" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="351dp"
+                android:layout_height="225dp"
+                android:layout_marginBottom="29dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:srcCompat="@drawable/lomijpg"
+                tools:layout_editor_absoluteX="80dp" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="146dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="44dp"
+            android:layout_marginRight="148dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:background="@null"
+            android:cropToPadding="false"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:srcCompat="@drawable/back"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintRight_creator="1" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
